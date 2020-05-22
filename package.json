@@ -1,0 +1,35 @@
+{
+  "name": "your-wallapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jimp": "^0.12.1",
+    "mongoose": "^5.9.14",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "@types/app-root-path": "^1.2.4",
+    "@types/bluebird": "^3.5.31",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/mongoose": "^5.7.20",
+    "@types/multer": "^1.4.3",
+    "@types/node": "^14.0.1",
+    "@types/sequelize": "^4.28.9",
+    "@types/validator": "^13.0.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
